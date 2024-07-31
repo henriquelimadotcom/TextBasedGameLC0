@@ -23,7 +23,7 @@ void Game::start() {
 		std::string direction;
 		std::cout << "Enter direction (North, South, East, West) or 'quit' to exit: ";
 		std::cin >> direction;
-		if (direction == "quit" break;
+		if (direction == "quit") break;
 		move(direction);
 	}
 }

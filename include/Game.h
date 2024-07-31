@@ -14,7 +14,7 @@ public:
 	Game();
 	void start();
 	void displayLocation();
-	void move(const std::& direction);
+	void move(const std::string& direction);
 };
 
 #endif
